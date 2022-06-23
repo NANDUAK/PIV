@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T10:51:28 IST" name="Suite" finished-at="2022-06-23T10:52:31 IST" duration-ms="63499">
+  <suite started-at="2022-06-23T11:59:17 IST" name="Suite" finished-at="2022-06-23T12:00:19 IST" duration-ms="61904">
     <groups>
     </groups>
-    <test started-at="2022-06-23T10:51:28 IST" name="Test" finished-at="2022-06-23T10:52:31 IST" duration-ms="63499">
+    <test started-at="2022-06-23T11:59:17 IST" name="Test" finished-at="2022-06-23T12:00:19 IST" duration-ms="61904">
       <class name="com.bobcares.testcases.TC1">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T10:51:28 IST" name="setup" finished-at="2022-06-23T10:51:47 IST" duration-ms="19200" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T11:59:17 IST" name="setup" finished-at="2022-06-23T11:59:36 IST" duration-ms="19218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc1()[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T10:51:47 IST" name="tc1" finished-at="2022-06-23T10:51:49 IST" duration-ms="2154" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T11:59:36 IST" name="tc1" finished-at="2022-06-23T11:59:38 IST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T10:51:49 IST" name="tearDown" finished-at="2022-06-23T10:51:49 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T11:59:38 IST" name="tearDown" finished-at="2022-06-23T11:59:39 IST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bobcares.testcases.TC1 -->
       <class name="com.bobcares.testcases.DDT_TC">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T10:51:49 IST" name="setup" finished-at="2022-06-23T10:52:07 IST" duration-ms="18089" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T11:59:39 IST" name="setup" finished-at="2022-06-23T11:59:57 IST" duration-ms="18052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T10:52:08 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T10:52:16 IST" duration-ms="7895" status="PASS">
+        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T11:59:57 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:04 IST" duration-ms="6494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T10:52:16 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T10:52:21 IST" duration-ms="5269" status="PASS">
+        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:04 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:09 IST" duration-ms="5471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T10:52:21 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T10:52:26 IST" duration-ms="4796" status="PASS">
+        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:09 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:14 IST" duration-ms="4481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T10:52:26 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T10:52:31 IST" duration-ms="4836" status="PASS">
+        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:14 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:18 IST" duration-ms="4725" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T10:52:31 IST" name="tearDown" finished-at="2022-06-23T10:52:31 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:18 IST" name="tearDown" finished-at="2022-06-23T12:00:19 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
