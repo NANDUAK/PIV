@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>inetBankingV1</groupId>
-  <artifactId>inetBankingV1</artifactId>
+  <groupId>bobcares</groupId>
+  <artifactId>bobcares</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>inetBankingV1</name>
+  <name>bobcares</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -34,6 +34,14 @@
     <version>3.0.0-M5</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.0-alpha5</version>
+</dependency>
+
+
     
     <dependency>
       <groupId>junit</groupId>
@@ -54,7 +62,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.5</version>
+    <version>6.8</version>
     <scope>test</scope>
 </dependency>
 
@@ -91,9 +99,7 @@
            <version>2.8.0</version>
     </dependency>
 	
-		
-		
-			
+				
 		<dependency>
 		    <groupId>log4j</groupId>
 		    <artifactId>log4j</artifactId>

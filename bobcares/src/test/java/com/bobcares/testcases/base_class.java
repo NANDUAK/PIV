@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -39,7 +40,9 @@ public class base_class {
 		if(br.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
-			d=new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();  
+			//options.setHeadless(true); //Set Chrome option
+			d=new ChromeDriver(options);
 		}
 		else if(br.equals("firefox"))
 		{
@@ -51,7 +54,7 @@ public class base_class {
 		    d = new FirefoxDriver(options);
 		}
 	
-		d.get(baseURL);	
+		//d.get(baseURL);	
 
 	}
 	

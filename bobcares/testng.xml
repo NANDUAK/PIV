@@ -8,13 +8,14 @@
 
  <test thread-count="5" name="Test">
 
-<parameter name="browser" value="chrome" />
-<!--parameter name="browser" value="chrome" /-->
+<!--parameter name="browser" value="firefox" /-->
+<parameter name="browser" value="firefox" />
 
 
     <classes>
-      <class name="com.bobcares.testcases.TC1"/>
-      <class name="com.bobcares.testcases.DDT_TC"/>
+      <!--class name="com.bobcares.testcases.TC1"/-->
+      <class name="com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring"/>
+      <!--class name="com.bobcares.testcases.DDT_TC"/-->
 
     </classes>
   </test> <!-- Test -->

@@ -1,113 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T11:59:17 IST" name="Suite" finished-at="2022-06-23T12:00:19 IST" duration-ms="61904">
+  <suite started-at="2022-06-30T04:55:12Z" name="Suite" finished-at="2022-06-30T04:55:55Z" duration-ms="43021">
     <groups>
     </groups>
-    <test started-at="2022-06-23T11:59:17 IST" name="Test" finished-at="2022-06-23T12:00:19 IST" duration-ms="61904">
-      <class name="com.bobcares.testcases.TC1">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T11:59:17 IST" name="setup" finished-at="2022-06-23T11:59:36 IST" duration-ms="19218" status="PASS">
+    <test started-at="2022-06-30T04:55:12Z" name="Test" finished-at="2022-06-30T04:55:55Z" duration-ms="43021">
+      <class name="com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring@67d18ed7]" started-at="2022-06-30T10:25:12Z" name="setup" finished-at="2022-06-30T10:25:16Z" duration-ms="3968" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc1()[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T11:59:36 IST" name="tc1" finished-at="2022-06-23T11:59:38 IST" duration-ms="2142" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring@67d18ed7]" started-at="2022-06-30T10:25:16Z" name="f" finished-at="2022-06-30T10:25:54Z" duration-ms="37595" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bobcares.testcases.TC1@8f2ef19]" started-at="2022-06-23T11:59:38 IST" name="tearDown" finished-at="2022-06-23T11:59:39 IST" duration-ms="241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.bobcares.testcases.TC1 -->
-      <class name="com.bobcares.testcases.DDT_TC">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T11:59:39 IST" name="setup" finished-at="2022-06-23T11:59:57 IST" duration-ms="18052" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T11:59:57 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:04 IST" duration-ms="6494" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[na]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ana]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:04 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:09 IST" duration-ms="5471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mnm]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:09 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:14 IST" duration-ms="4481" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nand]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mk]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String,java.lang.String)[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:14 IST" name="tc2" data-provider="data1" finished-at="2022-06-23T12:00:18 IST" duration-ms="4725" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nandu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kl]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bobcares.testcases.DDT_TC@76b1e9b8]" started-at="2022-06-23T12:00:18 IST" name="tearDown" finished-at="2022-06-23T12:00:19 IST" duration-ms="179" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring@67d18ed7]" started-at="2022-06-30T10:25:54Z" name="tearDown" finished-at="2022-06-30T10:25:55Z" duration-ms="1192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.bobcares.testcases.DDT_TC -->
+      </class> <!-- com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
