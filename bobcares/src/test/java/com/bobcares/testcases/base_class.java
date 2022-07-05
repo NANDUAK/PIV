@@ -50,11 +50,11 @@ public class base_class {
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities. setCapability("marionette",true);
 			FirefoxOptions options=new FirefoxOptions();
-			//options.addArguments("--headless"); 
+			options.addArguments("--headless"); 
 		    d = new FirefoxDriver(options);
 		}
 	
-		//d.get(baseURL);	
+		d.get(baseURL);	
 
 	}
 	

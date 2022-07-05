@@ -3,11 +3,11 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring">
+      <class name="com.bobcares.testcases.TC2_YearlyBilling_ServerManagementAndMonitoring">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring -->
+      </class> <!-- com.bobcares.testcases.TC2_YearlyBilling_ServerManagementAndMonitoring -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

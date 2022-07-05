@@ -29,6 +29,9 @@ public class ServerManagement {
 	
 	@FindBy(xpath="//button[@id='monthly']")
 	WebElement monthly_billing;	
+
+	@FindBy(xpath="//button[@id='annually']")
+	WebElement annualy_billing;	
 	
 	@FindBy(id="server-management-btn")
 	WebElement price_button;
@@ -62,6 +65,11 @@ public class ServerManagement {
 	public void monthly_billing_click()
 	{
 		monthly_billing.click();
+	}
+	
+	public void annualy_billing_click()
+	{
+		annualy_billing.click();
 	}
 	
 	public void price_button_click()

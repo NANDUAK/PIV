@@ -15,6 +15,7 @@
     <classes>
       <!--class name="com.bobcares.testcases.TC1"/-->
       <class name="com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring"/>
+      <class name="com.bobcares.testcases.TC2_YearlyBilling_ServerManagementAndMonitoring"/>
       <!--class name="com.bobcares.testcases.DDT_TC"/-->
 
     </classes>
