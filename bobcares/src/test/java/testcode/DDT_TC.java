@@ -1,4 +1,4 @@
-package com.bobcares.testcases;
+package testcode;
 
 import org.testng.annotations.Test;
 

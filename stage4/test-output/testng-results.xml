@@ -272,12 +272,12 @@
       <![CDATA[click_login]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-23T10:04:49 IST" name="Suite" finished-at="2022-06-23T10:16:40 IST" duration-ms="711042">
+  <suite started-at="2022-10-04T09:59:06 IST" name="Suite" finished-at="2022-10-04T10:13:20 IST" duration-ms="854284">
     <groups>
     </groups>
-    <test started-at="2022-06-23T10:04:49 IST" name="Test" finished-at="2022-06-23T10:16:40 IST" duration-ms="711042">
+    <test started-at="2022-10-04T09:59:06 IST" name="Test" finished-at="2022-10-04T10:13:20 IST" duration-ms="854284">
       <class name="TC.stage_4_class1">
-        <test-method signature="f1()[pri:0, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:04:49 IST" name="f1" finished-at="2022-06-23T10:05:03 IST" duration-ms="14145" status="PASS">
+        <test-method signature="f1()[pri:0, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T09:59:06 IST" name="f1" finished-at="2022-10-04T10:01:34 IST" duration-ms="148334" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -290,7 +290,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- f1 -->
-        <test-method signature="f2()[pri:1, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:05:03 IST" name="f2" finished-at="2022-06-23T10:05:27 IST" duration-ms="23289" status="PASS">
+        <test-method signature="f2()[pri:1, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:01:34 IST" name="f2" finished-at="2022-10-04T10:01:58 IST" duration-ms="23995" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -303,7 +303,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- f2 -->
-        <test-method signature="f4()[pri:2, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:05:27 IST" name="f4" finished-at="2022-06-23T10:05:50 IST" duration-ms="23214" status="PASS">
+        <test-method signature="f4()[pri:2, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:01:58 IST" name="f4" finished-at="2022-10-04T10:02:23 IST" duration-ms="24945" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -316,7 +316,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- f4 -->
-        <test-method signature="f3()[pri:3, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:05:50 IST" name="f3" finished-at="2022-06-23T10:06:10 IST" duration-ms="19697" status="PASS">
+        <test-method signature="f3()[pri:3, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:02:23 IST" name="f3" finished-at="2022-10-04T10:02:43 IST" duration-ms="19578" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -329,7 +329,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- f3 -->
-        <test-method signature="f5()[pri:4, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:06:10 IST" name="f5" finished-at="2022-06-23T10:06:29 IST" duration-ms="19241" status="PASS">
+        <test-method signature="f5()[pri:4, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:02:43 IST" name="f5" finished-at="2022-10-04T10:03:02 IST" duration-ms="19450" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -342,7 +342,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- f5 -->
-        <test-method signature="f6()[pri:5, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:06:29 IST" name="f6" finished-at="2022-06-23T10:06:45 IST" duration-ms="15804" status="PASS">
+        <test-method signature="f6()[pri:5, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:03:02 IST" name="f6" finished-at="2022-10-04T10:03:19 IST" duration-ms="16223" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -355,7 +355,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- f6 -->
-        <test-method signature="f7()[pri:6, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:06:45 IST" name="f7" finished-at="2022-06-23T10:07:04 IST" duration-ms="19314" status="PASS">
+        <test-method signature="f7()[pri:6, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:03:19 IST" name="f7" finished-at="2022-10-04T10:03:39 IST" duration-ms="20366" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -368,7 +368,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- f7 -->
-        <test-method signature="f8()[pri:7, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:07:04 IST" name="f8" finished-at="2022-06-23T10:07:21 IST" duration-ms="17343" status="FAIL">
+        <test-method signature="f8()[pri:7, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:03:39 IST" name="f8" finished-at="2022-10-04T10:03:56 IST" duration-ms="17367" status="FAIL">
           <exception class="java.lang.Exception">
             <full-stacktrace>
               <![CDATA[java.lang.Exception
@@ -416,7 +416,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f8 -->
-        <test-method signature="f9()[pri:8, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:07:21 IST" name="f9" finished-at="2022-06-23T10:07:43 IST" duration-ms="21706" status="FAIL">
+        <test-method signature="f9()[pri:8, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:03:56 IST" name="f9" finished-at="2022-10-04T10:04:19 IST" duration-ms="22284" status="FAIL">
           <exception class="java.lang.Exception">
             <full-stacktrace>
               <![CDATA[java.lang.Exception
@@ -464,7 +464,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f9 -->
-        <test-method signature="f10()[pri:9, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:07:43 IST" name="f10" finished-at="2022-06-23T10:08:14 IST" duration-ms="31050" status="PASS">
+        <test-method signature="f10()[pri:9, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:04:19 IST" name="f10" finished-at="2022-10-04T10:04:50 IST" duration-ms="31369" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -477,7 +477,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f10 -->
-        <test-method signature="f11()[pri:10, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:08:14 IST" name="f11" finished-at="2022-06-23T10:08:44 IST" duration-ms="29997" status="PASS">
+        <test-method signature="f11()[pri:10, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:04:50 IST" name="f11" finished-at="2022-10-04T10:05:20 IST" duration-ms="30553" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -490,7 +490,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f11 -->
-        <test-method signature="f12()[pri:11, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:08:44 IST" name="f12" finished-at="2022-06-23T10:09:11 IST" duration-ms="27217" status="PASS">
+        <test-method signature="f12()[pri:11, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:05:21 IST" name="f12" finished-at="2022-10-04T10:05:47 IST" duration-ms="26963" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -503,7 +503,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f12 -->
-        <test-method signature="f13()[pri:12, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:09:11 IST" name="f13" finished-at="2022-06-23T10:09:30 IST" duration-ms="18253" status="PASS">
+        <test-method signature="f13()[pri:12, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:05:47 IST" name="f13" finished-at="2022-10-04T10:06:06 IST" duration-ms="18550" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -516,7 +516,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f13 -->
-        <test-method signature="f14()[pri:13, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:09:30 IST" name="f14" finished-at="2022-06-23T10:10:00 IST" duration-ms="30751" status="PASS">
+        <test-method signature="f14()[pri:13, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:06:06 IST" name="f14" finished-at="2022-10-04T10:06:37 IST" duration-ms="31130" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -529,7 +529,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f14 -->
-        <test-method signature="f16()[pri:14, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:10:00 IST" name="f16" finished-at="2022-06-23T10:10:31 IST" duration-ms="30270" status="PASS">
+        <test-method signature="f16()[pri:14, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:06:37 IST" name="f16" finished-at="2022-10-04T10:07:07 IST" duration-ms="29967" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -542,7 +542,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f16 -->
-        <test-method signature="f15()[pri:15, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:10:31 IST" name="f15" finished-at="2022-06-23T10:10:56 IST" duration-ms="24941" status="PASS">
+        <test-method signature="f15()[pri:15, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:07:07 IST" name="f15" finished-at="2022-10-04T10:07:32 IST" duration-ms="24985" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -555,7 +555,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f15 -->
-        <test-method signature="f17()[pri:16, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:10:56 IST" name="f17" finished-at="2022-06-23T10:11:13 IST" duration-ms="16908" status="PASS">
+        <test-method signature="f17()[pri:16, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:07:32 IST" name="f17" finished-at="2022-10-04T10:07:50 IST" duration-ms="17405" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -568,7 +568,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f17 -->
-        <test-method signature="f18()[pri:17, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:11:13 IST" name="f18" finished-at="2022-06-23T10:11:30 IST" duration-ms="17765" status="PASS">
+        <test-method signature="f18()[pri:17, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:07:50 IST" name="f18" finished-at="2022-10-04T10:08:07 IST" duration-ms="17898" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -581,7 +581,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f18 -->
-        <test-method signature="f19()[pri:18, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:11:30 IST" name="f19" finished-at="2022-06-23T10:11:52 IST" duration-ms="21318" status="PASS">
+        <test-method signature="f19()[pri:18, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:08:07 IST" name="f19" finished-at="2022-10-04T10:08:29 IST" duration-ms="21455" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -594,7 +594,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f19 -->
-        <test-method signature="f20()[pri:19, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:11:52 IST" name="f20" finished-at="2022-06-23T10:12:20 IST" duration-ms="28741" status="PASS">
+        <test-method signature="f20()[pri:19, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:08:29 IST" name="f20" finished-at="2022-10-04T10:08:58 IST" duration-ms="28664" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -607,7 +607,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f20 -->
-        <test-method signature="f22()[pri:20, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:12:20 IST" name="f22" finished-at="2022-06-23T10:12:52 IST" duration-ms="31802" status="PASS">
+        <test-method signature="f22()[pri:20, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:08:58 IST" name="f22" finished-at="2022-10-04T10:09:30 IST" duration-ms="32500" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -620,7 +620,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f22 -->
-        <test-method signature="f21()[pri:21, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:12:52 IST" name="f21" finished-at="2022-06-23T10:13:21 IST" duration-ms="28362" status="PASS">
+        <test-method signature="f21()[pri:21, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:09:30 IST" name="f21" finished-at="2022-10-04T10:09:59 IST" duration-ms="28692" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -633,7 +633,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f21 -->
-        <test-method signature="f23()[pri:22, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:13:21 IST" name="f23" finished-at="2022-06-23T10:13:43 IST" duration-ms="22854" status="PASS">
+        <test-method signature="f23()[pri:22, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:09:59 IST" name="f23" finished-at="2022-10-04T10:10:22 IST" duration-ms="23068" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -646,7 +646,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f23 -->
-        <test-method signature="f24()[pri:23, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:13:43 IST" name="f24" finished-at="2022-06-23T10:14:16 IST" duration-ms="32760" status="PASS">
+        <test-method signature="f24()[pri:23, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:10:22 IST" name="f24" finished-at="2022-10-04T10:10:55 IST" duration-ms="33175" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -659,7 +659,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f24 -->
-        <test-method signature="f25()[pri:24, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:14:16 IST" name="f25" finished-at="2022-06-23T10:14:41 IST" duration-ms="25211" status="PASS">
+        <test-method signature="f25()[pri:24, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:10:55 IST" name="f25" finished-at="2022-10-04T10:11:21 IST" duration-ms="25791" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -672,7 +672,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f25 -->
-        <test-method signature="f26()[pri:25, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:14:41 IST" name="f26" finished-at="2022-06-23T10:15:00 IST" duration-ms="18297" status="PASS">
+        <test-method signature="f26()[pri:25, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:11:21 IST" name="f26" finished-at="2022-10-04T10:11:39 IST" duration-ms="18572" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -685,7 +685,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f26 -->
-        <test-method signature="f27()[pri:26, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:15:00 IST" name="f27" finished-at="2022-06-23T10:15:18 IST" duration-ms="18161" status="PASS">
+        <test-method signature="f27()[pri:26, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:11:39 IST" name="f27" finished-at="2022-10-04T10:11:58 IST" duration-ms="18845" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -698,7 +698,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f27 -->
-        <test-method signature="f28()[pri:27, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:15:18 IST" name="f28" finished-at="2022-06-23T10:15:44 IST" duration-ms="25926" status="PASS">
+        <test-method signature="f28()[pri:27, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:11:58 IST" name="f28" finished-at="2022-10-04T10:12:23 IST" duration-ms="24861" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -711,7 +711,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f28 -->
-        <test-method signature="f29()[pri:28, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:15:44 IST" name="f29" finished-at="2022-06-23T10:16:04 IST" duration-ms="20006" status="PASS">
+        <test-method signature="f29()[pri:28, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:12:23 IST" name="f29" finished-at="2022-10-04T10:12:44 IST" duration-ms="20465" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>
@@ -724,7 +724,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- f29 -->
-        <test-method signature="f30()[pri:29, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-06-23T10:16:04 IST" name="f30" finished-at="2022-06-23T10:16:40 IST" duration-ms="36567" status="PASS">
+        <test-method signature="f30()[pri:29, instance:TC.stage_4_class1@38f57b3d]" started-at="2022-10-04T10:12:44 IST" name="f30" finished-at="2022-10-04T10:13:20 IST" duration-ms="36685" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[username is agni]]>

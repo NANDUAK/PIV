@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="functional">
 
 <listeners>
 	<listener class-name="com.bobcares.utils.Reporting" />
@@ -8,17 +8,19 @@
 
  <test thread-count="5" name="Test">
 
-<!--parameter name="browser" value="firefox" /-->
 <parameter name="browser" value="firefox" />
+<!--parameter name="browser" value="chrome" /-->
 
-
-    <classes>
-      <!--class name="com.bobcares.testcases.TC1"/-->
+ <classes>
       <class name="com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring"/>
+      <class name="com.bobcares.testcases.TC3_MonthlyBilling_LimitelessServerManagement"/>
       <class name="com.bobcares.testcases.TC2_YearlyBilling_ServerManagementAndMonitoring"/>
-      <!--class name="com.bobcares.testcases.DDT_TC"/-->
+      <class name="com.bobcares.testcases.TC4_YearlyBilling_LimitelessServerManagement"/>
+      <class name="com.bobcares.testcases.TC5_supported_techologies_link"/>
+      <class name="com.bobcares.testcases.TC6_chatwithus_button"/>
 
-    </classes>
+</classes>
+
   </test> <!-- Test -->
 </suite> <!-- Suite -->
 
