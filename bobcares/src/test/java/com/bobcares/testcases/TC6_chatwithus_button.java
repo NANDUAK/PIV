@@ -21,8 +21,8 @@ public class TC6_chatwithus_button extends base_class{
 		SM.chatwithus_btn_click();
 		Thread.sleep(5000);
 		logger.info("click chat with us btn");
-
-
+		
+		
 		String Actual="Now chatting";
 		String Expected=SM.nowchattingfield_gettext();
 		Assert.assertEquals(Actual, Expected);

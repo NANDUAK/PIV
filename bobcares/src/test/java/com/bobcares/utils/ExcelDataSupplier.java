@@ -28,7 +28,6 @@ public class ExcelDataSupplier {
 				data[i][j] =df.formatCellValue(sheet.getRow(i+1).getCell(j));
 				//System.out.println(sheet.getRow(i).getCell(j).getDateCellValue());
 			}
-
 		}
 		workbook.close();
 		fis.close();

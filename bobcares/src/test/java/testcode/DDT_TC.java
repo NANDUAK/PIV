@@ -12,7 +12,8 @@ public class DDT_TC extends base_class {
         d.get(URL);
 		logger.info("URL is opened");
 		DDT_google tc=new DDT_google(d);
-		tc.searchgoogle(USER);
+		
+        tc.searchgoogle(USER);
 		Thread.sleep(2000);;
 		tc.searchgoogle(PASSWORD);
 		Thread.sleep(1000);

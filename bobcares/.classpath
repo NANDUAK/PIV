@@ -35,5 +35,29 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/jquery-3.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-examples-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-excelant-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-javadoc-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-ooxml-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-ooxml-full-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-ooxml-lite-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/poi-scratchpad-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/selenium-html-runner-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/selenium-server-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/testng-7.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/xmlbeans-5.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

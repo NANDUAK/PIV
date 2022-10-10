@@ -42,6 +42,26 @@
 </dependency>
 
 
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.14</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.14</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.xmlbeans</groupId>
+    <artifactId>xmlbeans</artifactId>
+    <version>2.3.0</version>
+</dependency>
+
+
+
    
   
 	<dependency>
@@ -98,6 +118,14 @@
 		    <artifactId>log4j</artifactId>
 		    <version>1.2.17</version> 
 		</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.kie.soup/kie-soup-commons -->
+<dependency>
+    <groupId>org.kie.soup</groupId>
+    <artifactId>kie-soup-commons</artifactId>
+    <version>7.73.0.Final</version>
+</dependency>
+
 		
   
   </dependencies>

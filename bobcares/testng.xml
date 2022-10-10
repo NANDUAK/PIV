@@ -12,12 +12,17 @@
 <!--parameter name="browser" value="chrome" /-->
 
  <classes>
-      <class name="com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring"/>
+
+
+      <!--class name="com.bobcares.testcases.TC1_MonthlyBilling_ServerManagementAndMonitoring"/>
       <class name="com.bobcares.testcases.TC3_MonthlyBilling_LimitelessServerManagement"/>
       <class name="com.bobcares.testcases.TC2_YearlyBilling_ServerManagementAndMonitoring"/>
       <class name="com.bobcares.testcases.TC4_YearlyBilling_LimitelessServerManagement"/>
       <class name="com.bobcares.testcases.TC5_supported_techologies_link"/>
       <class name="com.bobcares.testcases.TC6_chatwithus_button"/>
+      <class name="com.bobcares.testcases.branding"/-->
+                                  <class name="testcode.DDT_TC"/>
+
 
 </classes>
 

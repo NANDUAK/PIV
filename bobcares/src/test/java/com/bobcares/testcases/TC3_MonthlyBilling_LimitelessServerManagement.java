@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pageObject.ServerManagement;
 
 public class TC3_MonthlyBilling_LimitelessServerManagement extends base_class{
+	
 	@Test
 	public void TC3() throws Exception {
 //		logger.info("URL is opened");
