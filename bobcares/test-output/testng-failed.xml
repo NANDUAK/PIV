@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [functional]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.bobcares.utils.Reporting"/>
-  </listeners>
-  <test name="Test(failed)">
-    <parameter name="browser" value="firefox"/>
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testcode.DDT_TC">
+      <class name="com.bobcares.testcases.branding">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="tc2"/>
+          <include name="f1" invocation-numbers="40"/>
         </methods>
-      </class> <!-- testcode.DDT_TC -->
+      </class> <!-- com.bobcares.testcases.branding -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [functional] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

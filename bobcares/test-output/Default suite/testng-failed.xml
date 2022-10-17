@@ -5,9 +5,7 @@
     <classes>
       <class name="com.bobcares.testcases.branding">
         <methods>
-          <include name="setup"/>
-          <include name="tc2"/>
-          <include name="tearDown"/>
+          <include name="f1" invocation-numbers="40"/>
         </methods>
       </class> <!-- com.bobcares.testcases.branding -->
     </classes>

@@ -1,31 +1,82 @@
 package com.bobcares.testcases;
 
+import java.io.IOException;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
-
 import com.bobcares.utils.ExcelDataSupplier;
 
-public class branding extends base_class  {
+public class branding {
+	
+	public WebDriver d;
+	public String out_1;
+	
 	@Test(dataProvider = "data1",dataProviderClass = ExcelDataSupplier.class)
-	public void tc2(String URL, String passwd) throws InterruptedException  {
-		int i;
-		for(i=0;i<1;i++)
+	public void f1(String URL,String passwd) throws InterruptedException, IOException  {
+	
+		System.setProperty("webdriver.gecko.driver",(System.getenv("GECKO_DRIVER")));
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		capabilities. setCapability("marionette",true);
+		FirefoxOptions options=new FirefoxOptions();
+		options.addArguments("--headless"); 
+		options.addArguments("--incognito");
+		FirefoxDriver d = new FirefoxDriver(options);
+		
+		d.get(URL);
+
+
+		
+		Logger logger = Logger.getLogger("ecommerce");
+		PropertyConfigurator.configure("Log4j.properties");
+		
+		Thread.sleep(4000);
+		d.findElement(By.xpath("//input[@id='user_login']")).sendKeys("bobUS");
+		Thread.sleep(2000);
+		d.findElement(By.xpath("//input[@id='user_pass']")).sendKeys("9L7MDE0heWffrI5g-o-sN#.S");
+		Thread.sleep(2000);
+		d.findElement(By.xpath("//input[@id='wp-submit']")).click();
+		Thread.sleep(8000);
 		{
-			d.get(URL);
+			if	(!d.findElements(By.xpath("(//button[@class='components-button has-icon'])[7]")).isEmpty())	
+			{
+				Thread.sleep(3000);
+				d.findElement(By.xpath("(//button[@class='components-button has-icon'])[7]")).click();
+				Thread.sleep(2000);
+				d.findElement(By.xpath("//span[contains(text(),'Insights')]")).click();
+				Thread.sleep(5000);
+				String score_1=(d.findElement(By.xpath("(//span[@class='yoast-insights-card__amount'])[1]"))).getText();			
+				//score.getText();
+				System.out.println(score_1);
+				Thread.sleep(2000);
+				String url_1=d.getCurrentUrl();
+				String out_1=( url_1 + "," + score_1);
+				System.out.println(out_1);
+				logger.info(out_1);
+				Thread.sleep(1000);						
+				d.quit();
+			}	
+			else 
+			{
+				System.out.println("POP-UP ABSENT");
+				d.findElement(By.xpath("//span[contains(text(),'Insights')]")).click();
+				Thread.sleep(5000);
+				String score_2=(d.findElement(By.xpath("(//span[@class='yoast-insights-card__amount'])[1]"))).getText();
+				//	score.getText();
+				System.out.println(score_2);
+				String url=	d.getCurrentUrl();
+				Thread.sleep(2000);
+				String out_1= ( url + "," + score_2);
+				System.out.println(out_1);	
+				logger.info(out_1);
+				Thread.sleep(1000);
+				d.quit();	}
+		}}}
 
-			Thread.sleep(2000);
-			d.findElement(By.xpath("//body/div[@id='main']/div[@id='cnt']/div[@id='top_nav']/div[@id='hdtb']/div[@id='pTwnEc']/div[@id='hdtb-msb']/div[1]/span[1]/g-popup[1]/div[1]/div[1]")).click();
-			Thread.sleep(2000);
-//			d.findElement(By.xpath("//input[@id='user_pass']")).sendKeys(")DdZynC3gc1XCz&p)ytS09Pu");
-//			Thread.sleep(2000);
-//			d.findElement(By.xpath("//input[@id='wp-submit']")).click();
-//			Thread.sleep(8000);
-//			d.findElement(By.xpath("//span[contains(text(),'Insights')]")).click();
-//			Thread.sleep(5000);
-//			System.out.println(d.findElement(By.xpath("//body/div[@id='wpwrap']/div[@id='wpcontent']/div[@id='wpbody']/div[@id='wpbody-content']/div[3]/form[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[13]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/p[1]")).getText());
-//			Thread.sleep(4000);
-		}
 
-	}
-}
+
 

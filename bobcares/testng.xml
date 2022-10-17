@@ -21,7 +21,7 @@
       <class name="com.bobcares.testcases.TC5_supported_techologies_link"/>
       <class name="com.bobcares.testcases.TC6_chatwithus_button"/>
       <class name="com.bobcares.testcases.branding"/-->
-                                  <class name="testcode.DDT_TC"/>
+      <class name="testcode.DDT_TC"/>
 
 
 </classes>

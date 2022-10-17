@@ -1,19 +1,13 @@
-package com.bobcares.testcases;
+package testcode;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObject.ServerManagement;
 
-public class TC3_MonthlyBilling_LimitelessServerManagement extends base_class{
-	
-	@Test
-	public void TC3() throws Exception {
-//		logger.info("URL is opened");
-//		Thread.sleep(2000);
-//		d.findElement(By.id("home-banner-bob-sec")).click();
-//		Thread.sleep(4000);
-//		d.findElement(By.xpath("//button[contains(text(),'I Agree')]")).click();
+public class TC4_YearlyBilling_LimitelessServerManagement extends base_class{
+  @Test
+  public void TC4() throws Exception {
 		try {
 			ServerManagement SM=new ServerManagement(d);
 			Thread.sleep(5000);
@@ -24,18 +18,18 @@ public class TC3_MonthlyBilling_LimitelessServerManagement extends base_class{
 //			WebElement l=d.findElement(By.xpath("//span[contains(text(),'Chat with us')]"));
 //			l.getText();
 //			System.out.println("element present"+l);
-			SM.monthly_billing_click();
-			logger.info("click monthly billing");
+			SM.annualy_billing_click();
+			logger.info("click annual billing");
 			Thread.sleep(4000);
-			SM.price_button_149_click();
-			logger.info("click price_149 button");
+			SM.price_button_89_click();
+			logger.info("click price_89 button");
 			Thread.sleep(4000);	
 			//			SM.continue_btn2_click();
 			//			logger.info("click on continue");
 			Thread.sleep(5000);
 
 
-			String Actual="Server Management - Limitless Server Management Monthly";
+			String Actual="Server Management - Limitless Server Management Yearly";
 			String Expected=SM.selectedService2_Gettext();
 			Assert.assertEquals(Actual, Expected);
 			logger.info("test passed assert pass");
@@ -51,4 +45,7 @@ public class TC3_MonthlyBilling_LimitelessServerManagement extends base_class{
 			captureScreen(d, "TC3");
 			throw new Exception();	
 		}
-	}}
+	}
+
+	  
+  }

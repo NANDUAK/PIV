@@ -24,9 +24,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -57,7 +56,6 @@
 	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/selenium-server-4.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/slf4j-api-1.7.32.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/SparseBitSet-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/testng-7.4.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nandu/Desktop/selenium/libra/xmlbeans-5.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

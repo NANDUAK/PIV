@@ -55,7 +55,7 @@ public class base_class {
 			d = new FirefoxDriver(options);
 		}
 
-		d.get("www.google.com");	
+	//	d.get(baseURL);	
 		d.manage().window().maximize();
 	}
 

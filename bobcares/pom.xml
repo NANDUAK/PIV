@@ -31,7 +31,7 @@
 <dependency>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
-    <version>3.0.0-M7</version>
+    <version>3.0.0-M7</version> 
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
@@ -118,14 +118,6 @@
 		    <artifactId>log4j</artifactId>
 		    <version>1.2.17</version> 
 		</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.kie.soup/kie-soup-commons -->
-<dependency>
-    <groupId>org.kie.soup</groupId>
-    <artifactId>kie-soup-commons</artifactId>
-    <version>7.73.0.Final</version>
-</dependency>
-
 		
   
   </dependencies>

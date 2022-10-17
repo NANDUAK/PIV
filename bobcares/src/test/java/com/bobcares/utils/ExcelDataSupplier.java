@@ -2,12 +2,15 @@ package com.bobcares.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 
 public class ExcelDataSupplier {
@@ -32,8 +35,23 @@ public class ExcelDataSupplier {
 		workbook.close();
 		fis.close();
 		for (String[] dataarr :data ){
-			System.out.println(Arrays.toString(dataarr));
+		//	System.out.println(Arrays.toString(dataarr));
 		}
 		return data;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
 }
+	
+	
+	

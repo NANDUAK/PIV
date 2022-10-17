@@ -1,84 +1,821 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+<testng-results ignored="0" total="50" passed="49" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-10T13:04:13Z" name="functional" finished-at="2022-10-10T13:04:19Z" duration-ms="5905">
+  <suite started-at="2022-10-17T08:53:15Z" name="Default suite" finished-at="2022-10-17T09:30:40Z" duration-ms="2245330">
     <groups>
     </groups>
-    <test started-at="2022-10-10T13:04:13Z" name="Test" finished-at="2022-10-10T13:04:19Z" duration-ms="5905">
-      <class name="testcode.DDT_TC">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcode.DDT_TC@76f4b65]" started-at="2022-10-10T18:34:13Z" name="setup" finished-at="2022-10-10T18:34:18Z" duration-ms="4327" status="FAIL">
+    <test started-at="2022-10-17T08:53:15Z" name="Default test" finished-at="2022-10-17T09:30:40Z" duration-ms="2245330">
+      <class name="com.bobcares.testcases.branding">
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:23:16Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:24:04Z" duration-ms="47718" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295284&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.InvalidArgumentException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:24:04Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:24:47Z" duration-ms="43198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=294817&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:24:47Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:25:28Z" duration-ms="40785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=294821&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:25:28Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:26:16Z" duration-ms="48077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=294839&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:26:16Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:27:05Z" duration-ms="49257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=294842&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:27:05Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:27:53Z" duration-ms="47695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295307&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:27:53Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:28:38Z" duration-ms="45111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295298&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:28:38Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:29:20Z" duration-ms="41647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=294992&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:29:20Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:30:08Z" duration-ms="47972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=294831&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:30:08Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:30:55Z" duration-ms="47005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295077&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:30:55Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:31:39Z" duration-ms="44911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295334&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:31:39Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:32:25Z" duration-ms="45064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295320&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:32:25Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:33:07Z" duration-ms="42487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295060&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:33:07Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:33:54Z" duration-ms="47036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=294045&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:33:54Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:34:43Z" duration-ms="48664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295129&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:34:43Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:35:28Z" duration-ms="45209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295434&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:35:28Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:36:13Z" duration-ms="45042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295357&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:36:13Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:36:55Z" duration-ms="42025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295148&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:36:55Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:37:36Z" duration-ms="40783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295098&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:37:36Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:38:23Z" duration-ms="47162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295144&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:38:23Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:39:06Z" duration-ms="43555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295645&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:39:06Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:39:49Z" duration-ms="42337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295164&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:39:49Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:40:30Z" duration-ms="40670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295171&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:40:30Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:41:16Z" duration-ms="46485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295220&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:41:16Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:42:04Z" duration-ms="47631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295210&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:42:04Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:42:51Z" duration-ms="47400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295440&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:42:51Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:43:51Z" duration-ms="59919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295203&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:43:51Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:44:34Z" duration-ms="43467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295201&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:44:34Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:45:21Z" duration-ms="46441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295216&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:45:21Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:46:11Z" duration-ms="49960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295327&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:46:11Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:46:55Z" duration-ms="44355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295205&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:46:55Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:47:32Z" duration-ms="37222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295356&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:47:32Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:48:16Z" duration-ms="43190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295377&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:48:16Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:49:01Z" duration-ms="45068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295359&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:49:01Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:49:45Z" duration-ms="44406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295313&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:49:45Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:50:32Z" duration-ms="47173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295887&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:50:32Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:51:13Z" duration-ms="40729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295411&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:51:13Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:51:55Z" duration-ms="42298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295399&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:51:55Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:52:40Z" duration-ms="44745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295393&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:52:40Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:53:26Z" duration-ms="46141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295395&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:53:26Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:53:56Z" duration-ms="29666" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295988&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982]]>
+              <![CDATA[Unable to locate element: //span[contains(text(),'Insights')]For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 8972, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: 34025ceb-4942-47ad-be41-ff7c7c2efd1c*** Element info: {Using=xpath, value=//span[contains(text(),'Insights')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)at testcode.base_class.setup(base_class.java:58)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:568)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(),'Insights')]For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 8972, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: 34025ceb-4942-47ad-be41-ff7c7c2efd1c*** Element info: {Using=xpath, value=//span[contains(text(),'Insights')]}at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)at org.openqa.selenium.By$ByXPath.findElement(By.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)at com.bobcares.testcases.branding.f1(branding.java:66)at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:568)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:testcode.DDT_TC@76f4b65]" started-at="2022-10-10T18:34:19Z" name="tc2" data-provider="data1" finished-at="2022-10-10T18:34:19Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)at testcode.base_class.setup(base_class.java:58)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:568)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:53:56Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:54:40Z" duration-ms="44564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295413&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:testcode.DDT_TC@76f4b65]" started-at="2022-10-10T18:34:19Z" name="tc2" data-provider="data1" finished-at="2022-10-10T18:34:19Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)at testcode.base_class.setup(base_class.java:58)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:568)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:54:40Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:55:25Z" duration-ms="44224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295532&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:testcode.DDT_TC@76f4b65]" started-at="2022-10-10T18:34:19Z" name="tc2" data-provider="data1" finished-at="2022-10-10T18:34:19Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)at testcode.base_class.setup(base_class.java:58)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:568)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:55:25Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:56:12Z" duration-ms="47583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295403&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method signature="tc2(java.lang.String, java.lang.String)[pri:0, instance:testcode.DDT_TC@76f4b65]" started-at="2022-10-10T18:34:19Z" name="tc2" data-provider="data1" finished-at="2022-10-10T18:34:19Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: Malformed URL: URL constructor: www.google.com is not a valid URL.Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:59'System info: host: 'DESKTOP-LHVEUFN', ip: '172.17.6.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'Driver info: org.openqa.selenium.firefox.FirefoxDriverCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10836, moz:profile: C:\Users\nandu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}Session ID: eff6a837-3489-4725-b38b-65b5276bf982at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)at testcode.base_class.setup(base_class.java:58)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:568)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:56:12Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:56:55Z" duration-ms="42406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295407&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcode.DDT_TC@76f4b65]" started-at="2022-10-10T18:34:19Z" name="tearDown" finished-at="2022-10-10T18:34:19Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:56:55Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:57:42Z" duration-ms="47524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=296061&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcode.DDT_TC -->
-    </test> <!-- Test -->
-  </suite> <!-- functional -->
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:57:42Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:58:23Z" duration-ms="41142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295530&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:58:23Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:59:08Z" duration-ms="44466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295614&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:59:08Z" name="f1" data-provider="data1" finished-at="2022-10-17T14:59:56Z" duration-ms="48163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295848&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method signature="f1(java.lang.String, java.lang.String)[pri:0, instance:com.bobcares.testcases.branding@265adfad]" started-at="2022-10-17T14:59:56Z" name="f1" data-provider="data1" finished-at="2022-10-17T15:00:40Z" duration-ms="44178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://bobcares.com/wp-admin/post.php?post=295896&action=edit&classic-editor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- com.bobcares.testcases.branding -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

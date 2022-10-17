@@ -1,4 +1,4 @@
-package com.bobcares.testcases;
+package testcode;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
