@@ -5,7 +5,7 @@
     <classes>
       <class name="com.bobcares.testcases.branding">
         <methods>
-          <include name="f1" invocation-numbers="40"/>
+          <include name="f1" invocation-numbers="54 55 63 64 65 66 67 82"/>
         </methods>
       </class> <!-- com.bobcares.testcases.branding -->
     </classes>
